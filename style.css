@@ -103,6 +103,15 @@ body{
     color: #fff;
     font-weight: 200;
 }
+.contactInfo ul li span a {
+    color: #fff;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.contactInfo ul li span a:hover {
+    text-transform: uppercase;
+}
 .contactInfo-education li
 {
     margin-bottom: 15px;
@@ -123,6 +132,16 @@ body{
 {
     color: #fff;
     font-weight: 500;
+}
+.contactInfo-education h4 a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contactInfo-education h4 a:hover {
+    text-transform: uppercase;
+    cursor: pointer;
 }
 .contactInfo-languages ul li
 {
